@@ -315,6 +315,10 @@ input#menu {
   .navbar a:hover {
     opacity: 0.3;
   }
+  .intro p,
+  .maintext p {
+    font-size: 1rem;
+  }
   section {
     font-size: 0.8rem;
   }
@@ -366,5 +370,14 @@ input#menu {
     max-height: 100%;
     opacity: 1;
     transform: translateY(0);
+  }
+}
+@media only screen and (max-width: 350px) {
+  .intro p,
+  .maintext p {
+    font-size: 0.9rem;
+  }
+  section {
+    font-size: 0.7rem;
   }
 }
