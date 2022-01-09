@@ -26,6 +26,9 @@ header {
   position: sticky;
   top: 0;
 }
+p {
+  font-size: 1.2rem;
+}
 .navbar ul {
   list-style: none;
 }
@@ -138,7 +141,6 @@ h1 {
 .intro p,
 .maintext p {
   font-family: "Roboto Mono", monospace;
-  font-size: 1.2rem;
   opacity: 0;
   transform: translateY(3rem);
   animation: fadeinup 2s ease calc(var(--typewriterspeed) + 2s) forwards;
@@ -282,7 +284,7 @@ input#menu {
   }
   nav {
     text-align: center;
-    z-index: 100;
+    z-index: 2;
     pointer-events: none;
     transform: translateY(-30px);
     opacity: 0;
@@ -304,7 +306,7 @@ input#menu {
     background-color: white;
     border-radius: 0.25rem;
     padding: 0.75rem;
-    z-index: 100;
+    z-index: 2;
   }
   .navbar a {
     color: #000000;
@@ -315,9 +317,8 @@ input#menu {
   .navbar a:hover {
     opacity: 0.3;
   }
-  .intro p,
-  .maintext p {
-    font-size: 1rem;
+  p {
+    font-size: 1.05rem;
   }
   section {
     font-size: 0.8rem;
@@ -365,7 +366,7 @@ input#menu {
     transition: all 0.2s ease 0s;
   }
   input:checked ~ nav {
-    z-index: 100;
+    z-index: 2;
     pointer-events: auto;
     max-height: 100%;
     opacity: 1;
@@ -373,9 +374,8 @@ input#menu {
   }
 }
 @media only screen and (max-width: 350px) {
-  .intro p,
-  .maintext p {
-    font-size: 0.9rem;
+  p {
+    font-size: 0.95rem;
   }
   section {
     font-size: 0.7rem;
