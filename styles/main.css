@@ -326,13 +326,14 @@ input#menu {
   }
 
   .collapsable-menu {
+    position: absolute;
     right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 0px 10px;
-    z-index: 100;
+    z-index: 2;
   }
 
   .collapsable-menu label {
