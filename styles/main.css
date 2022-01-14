@@ -307,6 +307,7 @@ input#menu {
     border-radius: 0.25rem;
     padding: 0.75rem;
     z-index: 2;
+    box-shadow: 0 3px 6px 4px rgba(20, 20, 20, 0.4);
   }
   .navbar a {
     color: #000000;
