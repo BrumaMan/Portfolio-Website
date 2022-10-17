@@ -16,7 +16,7 @@ const about = () => {
             <article className="about__card">
               <FaUniversity className="about__icon" />
               <h5>Student</h5>
-              <small>1st Year Computer Science</small>
+              <small>2nd Year Computer Science</small>
             </article>
             <article className="about__card">
               <BsAward className="about__icon" />
@@ -26,12 +26,12 @@ const about = () => {
             <article className="about__card">
               <AiOutlineProject className="about__icon" />
               <h5>Projects</h5>
-              <small>Working on first project</small>
+              <small>Worked on 5+ projects</small>
             </article>
           </div>
 
           <p>
-            I'm a 1st year undergraduate student of Computer Science at
+            I'm a 2nd year undergraduate student of Computer Science at
             Birmingham City University. I'm a curious person always trying to
             learn something new. Skilled in Python, JavaScript and
             problem-solving. In the future I would like to work as a Software

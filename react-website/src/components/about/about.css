@@ -12,7 +12,10 @@
 .about__card {
   background: var(--color-bg-variant);
   border: 1px solid transparent;
-  border-radius: 1rem;
+  border-radius: 35px;
+  background: #262626;
+  box-shadow:  7px 7px 14px #202020,
+  -7px -7px 14px #2c2c2c;
   padding: 2rem;
   text-align: center;
   transition: var(--transition);
@@ -61,7 +64,7 @@
 @media screen and (max-width: 600px) {
   .about__cards {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .about__content {
