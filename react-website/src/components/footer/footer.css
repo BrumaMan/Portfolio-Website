@@ -1,5 +1,5 @@
 footer {
-  background: var(--color-primary);
+  background: #383838;
   padding: 3rem 0;
   text-align: center;
   font-size: 0.9rem;
@@ -7,7 +7,7 @@ footer {
 }
 
 footer a {
-  color: var(--color-bg);
+  color: white;
 }
 
 .permalinks {
@@ -16,6 +16,10 @@ footer a {
   justify-content: center;
   gap: 2rem;
   margin: 0 auto 3rem;
+}
+
+.permalinks li:hover {
+    scale: 1.1;
 }
 
 .footer__socials {
@@ -35,9 +39,10 @@ footer a {
 }
 
 .footer__socials a:hover {
-  background: transparent;
-  color: var(--color-bg);
+/*  background: transparent;*/
+  color: white;
   border-color: var(--color-bg);
+  scale: 1.2;
 }
 
 /* ============ SMALL DEVICES =========== */
@@ -50,5 +55,13 @@ footer a {
 
   .footer__socials {
     margin-bottom: 5rem;
+  }
+
+ .footer__socials a:hover {
+      scale: 1;
+  }
+
+ .permalinks li:hover {
+      scale: 1;
   }
 }

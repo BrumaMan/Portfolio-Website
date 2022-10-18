@@ -11,8 +11,8 @@
 }
 
 :root {
-  --color-bg: #07575b;
-  --color-bg-variant: #003b46;
+    --color-bg: #262626;
+  --color-bg-variant: #262626;
   --color-primary: #66a5ad;
   --color-primary-variant: #003b46;
   --color-white: #fff;
@@ -54,10 +54,16 @@ h3,
 h4,
 h5 {
   font-weight: 500;
+  background: linear-gradient(to right, rgb(67 124 205), rgb(69 214 202));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h1 {
   font-size: 2.5rem;
+  background: linear-gradient(to right, rgb(67 124 205), rgb(69 214 202));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 section {

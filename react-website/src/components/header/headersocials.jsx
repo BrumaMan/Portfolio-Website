@@ -13,9 +13,6 @@ const headersocials = () => {
       <a href="https://github.com/BrumaMan" target="_blank">
         <FaGithub />
       </a>
-      <a href="https://www.instagram.com/bartoszmazurowski/" target="_blank">
-        <BsInstagram />
-      </a>
       <a href="https://twitter.com/BartoszMazu" target="_blank"><BsTwitter /></a>
     </div>
   );
