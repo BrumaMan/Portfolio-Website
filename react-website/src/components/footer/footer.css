@@ -18,6 +18,10 @@ footer a {
   margin: 0 auto 3rem;
 }
 
+.permalinks li:hover {
+    scale: 1.1;
+}
+
 .footer__socials {
   display: flex;
   justify-content: center;
@@ -35,9 +39,10 @@ footer a {
 }
 
 .footer__socials a:hover {
-  background: transparent;
-  color: var(--color-bg);
+/*  background: transparent;*/
+  color: white;
   border-color: var(--color-bg);
+  scale: 1.2;
 }
 
 /* ============ SMALL DEVICES =========== */
@@ -50,5 +55,13 @@ footer a {
 
   .footer__socials {
     margin-bottom: 5rem;
+  }
+
+ .footer__socials a:hover {
+      scale: 1;
+  }
+
+ .permalinks li:hover {
+      scale: 1;
   }
 }
